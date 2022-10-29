@@ -442,6 +442,79 @@
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
+
+        <form class="form" action="#">
+          <p class="form-title">Залиште свої дані, ми вам передзвонимо</p>
+
+          <label class="form-send-field" for="userName">Ім'я</label>
+          <div class="form-send-field-box">
+            <input
+              class="form-send-input"
+              type="text"
+              name="userName"
+              id="userName"
+              autofocus
+            />
+            <svg class="form-icon" width="18" height="18">
+              <use href="./images/icons.svg#icon-person"></use>
+            </svg>
+          </div>
+
+          <label class="form-send-field" for="userPhone">Телефон</label>
+          <div class="form-send-field-box">
+            <input
+              class="form-send-input"
+              type="tel"
+              name="userPhone"
+              id="userPhone"
+            />
+            <svg class="form-icon" width="18" height="18">
+              <use href="./images/icons.svg#icon-phone"></use>
+            </svg>
+          </div>
+
+          <label class="form-send-field" for="userMail">Пошта</label>
+          <div class="form-send-field-box">
+            <input
+              class="form-send-input"
+              type="email"
+              name="userMail"
+              id="userMail"
+            />
+            <svg class="form-icon" width="18" height="18">
+              <use href="./images/icons.svg#icon-email"></use>
+            </svg>
+          </div>
+
+          <label
+            class="form-send-field form-send-field-comment"
+            for="userComment"
+          >
+            <span class="form-send-comment-text">Коментар</span>
+            <textarea
+              class="form-comment"
+              name="form-comment"
+              id="form-comment"
+              placeholder="Введіть текст"
+              autocomplete="off"
+            ></textarea>
+          </label>
+
+          <label class="form-send-accept-field">
+            <input
+              type="checkbox"
+              class="form-checkbox visually-hidden"
+              name="accept"
+              value="accept"
+            />
+            <svg class="checkbox-icon" width="16" height="15">
+              <use href="./images/icons.svg#icon-check"></use>
+            </svg>
+            Погоджуюся з розсилкою та приймаю <a href="#">Умови договору</a>
+          </label>
+
+          <button class="btn-send" type="submit">Відправити</button>
+        </form>
       </div>
     </div>
 
