@@ -562,10 +562,9 @@ img {
   padding: 60px 0;
 }
 
-.footer-list {
+.footer-container {
   display: flex;
   align-items: baseline;
-  gap: 70px;
 }
 
 .logo-footer {
@@ -654,8 +653,12 @@ img {
 
 .footer-form {
   width: 570px;
-  height: 80px;
   margin-left: 93px;
+}
+
+.footer-links {
+  margin-right: 70px;
+  flex-grow: 1;
 }
 
 .join-form {
@@ -705,7 +708,6 @@ img {
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-  margin-top: 30px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
