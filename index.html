@@ -17,7 +17,6 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
 
-    <link rel="stylesheet" href="./css/styles.css" />
     <link rel="stylesheet" href="./css/main.min.css" />
 
     <title>Студія</title>
@@ -462,79 +461,80 @@
 
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <button class="close-btn" type="button" data-modal-close>
+        <button class="modal__btn-close" type="button" data-modal-close>
           <svg width="18" height="18">
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
 
         <form class="form" action="#">
-          <p class="form-title">Залиште свої дані, ми вам передзвонимо</p>
+          <p class="form__title">Залиште свої дані, ми вам передзвонимо</p>
 
-          <label class="form-send-field" for="userName">Ім'я</label>
-          <div class="form-send-field-box">
+          <label class="form__send-title" for="userName">Ім'я</label>
+          <div class="form__send-field">
             <input
-              class="form-send-input"
+              class="form__input"
               type="text"
               name="userName"
               id="userName"
               autofocus
             />
-            <svg class="form-icon" width="18" height="18">
+            <svg class="form__icon" width="18" height="18">
               <use href="./images/icons.svg#icon-person"></use>
             </svg>
           </div>
 
-          <label class="form-send-field" for="userPhone">Телефон</label>
-          <div class="form-send-field-box">
+          <label class="form__send-title" for="userPhone">Телефон</label>
+          <div class="form__send-field">
             <input
-              class="form-send-input"
+              class="form__input"
               type="tel"
               name="userPhone"
               id="userPhone"
             />
-            <svg class="form-icon" width="18" height="18">
+            <svg class="form__icon" width="18" height="18">
               <use href="./images/icons.svg#icon-phone"></use>
             </svg>
           </div>
 
-          <label class="form-send-field" for="userMail">Пошта</label>
-          <div class="form-send-field-box">
+          <label class="form__send-title" for="userMail">Пошта</label>
+          <div class="form__send-field">
             <input
-              class="form-send-input"
+              class="form__input"
               type="email"
               name="userMail"
               id="userMail"
             />
-            <svg class="form-icon" width="18" height="18">
+            <svg class="form__icon" width="18" height="18">
               <use href="./images/icons.svg#icon-email"></use>
             </svg>
           </div>
 
-          <label class="form-send-field form-send-field-comment">
-            <span class="form-send-comment-text">Коментар</span>
+          <label class="form__send-title form__comment">
+            <span class="form__comment-title">Коментар</span>
             <textarea
-              class="form-comment"
+              class="form__comment-field"
               name="form-comment"
               placeholder="Введіть текст"
               autocomplete="off"
             ></textarea>
           </label>
 
-          <label class="form-send-accept-field">
+          <label class="form__accept">
             <input
               type="checkbox"
-              class="form-checkbox visually-hidden"
+              class="form__accept-checkbox visually-hidden"
               name="accept"
               value="accept"
             />
-            <svg class="checkbox-icon" width="16" height="15">
+            <svg class="form__accept-icon" width="16" height="15">
               <use href="./images/icons.svg#icon-check"></use>
             </svg>
-            Погоджуюся з розсилкою та приймаю <a href="#">Умови договору</a>
+            Погоджуюся з розсилкою та приймаю
+            <a href="#" class="form__link">Умови договору</a>
           </label>
 
-          <button class="btn-send" type="submit">Відправити</button>
+          <button class="form__btn" type="submit">Відправити</button>
         </form>
       </div>
     </div>
