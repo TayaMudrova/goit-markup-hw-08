@@ -1,2 +1,2 @@
-# goit-markup-hw-07
-HW7-link: https://tayamudrova.github.io/goit-markup-hw-07/
+# goit-markup-hw-08
+HW7-link: https://tayamudrova.github.io/goit-markup-hw-08/
