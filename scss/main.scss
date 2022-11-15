@@ -2,23 +2,24 @@
 @import "./utils/base";
 @import "./utils/utils";
 
-@import "./components/activity-section";
+@import "./layouts/activity-section";
+@import "./layouts/clients-section";
+@import "./layouts/features-section";
+@import "./layouts/footer";
+@import "./layouts/header";
+@import "./layouts/hero";
+@import "./layouts/modal";
+@import "./layouts/projects";
+@import "./layouts/team-section";
+
 @import "./components/address";
-@import "./components/clients-section";
 @import "./components/contacts";
 @import "./components/container";
-@import "./components/features-section";
 @import "./components/filtr";
-@import "./components/footer";
 @import "./components/form";
-@import "./components/header";
-@import "./components/hero";
 @import "./components/join";
 @import "./components/logo";
-@import "./components/modal";
 @import "./components/navigation";
-@import "./components/projects";
 @import "./components/section";
 @import "./components/socials";
 @import "./components/subscribe";
-@import "./components/team-section";
