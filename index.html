@@ -24,49 +24,47 @@
   <body>
     <header class="header">
       <div class="container header__container">
-          <nav class="header__menu">
-            <a href="./index.html" class="logo"
-              >Web<span class="logo__dark">Studio</span></a
-            >
+        <nav class="header__menu">
+          <a href="./index.html" class="logo"
+            >Web<span class="logo__dark">Studio</span></a
+          >
 
-            <ul class="navigation">
-              <li class="navigation__item">
-                <a
-                  href="./index.html"
-                  class="navigation__link navigation__link--current"
-                  >Студія</a
-                >
-              </li>
-              <li class="navigation__item">
-                <a href="./portfolio.html" class="navigation__link"
-                  >Портфоліо</a
-                >
-              </li>
-              <li class="navigation__item">
-                <a href="#" class="navigation__link">Контакти</a>
-              </li>
-            </ul>
-          </nav>
-
-          <ul class="contacts">
-            <li class="contacts__item">
-              <a href="mailto:info@devstudio.com" class="contacts__link">
-                <svg class="contacts__icon" width="16" height="12">
-                  <use href="./images/icons.svg#icon-envelope"></use>
-                </svg>
-                info@devstudio.com</a
+          <ul class="navigation">
+            <li class="navigation__item">
+              <a
+                href="./index.html"
+                class="navigation__link navigation__link--current"
+                >Студія</a
               >
             </li>
-            <li class="contacts__item">
-              <a href="tel:+380961111111" class="contacts__link"
-                ><svg class="contacts__icon" width="10" height="16">
-                  <use href="./images/icons.svg#icon-smartphone"></use>
-                </svg>
-                +38 096 111 11 11</a
-              >
+            <li class="navigation__item">
+              <a href="./portfolio.html" class="navigation__link">Портфоліо</a>
+            </li>
+            <li class="navigation__item">
+              <a href="#" class="navigation__link">Контакти</a>
             </li>
           </ul>
-          <!-- <button type="button" class="burger-menu js-open-menu">
+        </nav>
+
+        <ul class="contacts">
+          <li class="contacts__item">
+            <a href="mailto:info@devstudio.com" class="contacts__link">
+              <svg class="contacts__icon" width="16" height="12">
+                <use href="./images/icons.svg#icon-envelope"></use>
+              </svg>
+              info@devstudio.com</a
+            >
+          </li>
+          <li class="contacts__item">
+            <a href="tel:+380961111111" class="contacts__link"
+              ><svg class="contacts__icon" width="10" height="16">
+                <use href="./images/icons.svg#icon-smartphone"></use>
+              </svg>
+              +38 096 111 11 11</a
+            >
+          </li>
+        </ul>
+        <!-- <button type="button" class="burger-menu js-open-menu">
             <svg width="40" height="40">
               <use class="burger-menu__icon" href="./images/icons.svg#icon-menu"></use>
             </svg>
@@ -150,11 +148,11 @@
           <ul class="activity">
             <li class="activity__item">
               <img
-              srcset="./images/img1@1x.jpg 1x, ./images/img1@2x.jpg 2x"
-              src="./images/img1@1x.jpg"
-              alt="Розробка"
-              width="370px"
-            />
+                srcset="./images/img1@1x.jpg 1x, ./images/img1@2x.jpg 2x"
+                src="./images/img1@1x.jpg"
+                alt="Розробка"
+                width="370px"
+              />
               <h3 class="activity__title">Десктопні додатки</h3>
             </li>
             <li class="activity__item">
@@ -188,20 +186,32 @@
             <li class="team__item">
               <picture>
                 <source
-                  srcset="./images/igor-desktop@1x.jpg 1x, ./images/igor-desktop@2x.jpg 2x"
+                  srcset="
+                    ./images/igor-desktop@1x.jpg 1x,
+                    ./images/igor-desktop@2x.jpg 2x
+                  "
                   media="(min-width: 1200px)"
                 />
 
                 <source
-                  srcset="./images/igor-tablet@1x.jpg 1x, ./images/igor-tablet@2x.jpg 2x"
+                  srcset="
+                    ./images/igor-tablet@1x.jpg 1x,
+                    ./images/igor-tablet@2x.jpg 2x
+                  "
                   media="(min-width: 768px)"
                 />
 
                 <source
-                  srcset="./images/igor-mobile@1x.jpg 1x, ./images/igor-mobile@2x.jpg 2x"
+                  srcset="
+                    ./images/igor-mobile@1x.jpg 1x,
+                    ./images/igor-mobile@2x.jpg 2x
+                  "
                   media="(max-width: 767px)"
                 />
-                <img src="./images/igor-mobile@1x.jpg" alt="дизайнер продукту" />
+                <img
+                  src="./images/igor-mobile@1x.jpg"
+                  alt="дизайнер продукту"
+                />
               </picture>
 
               <div class="team__card">
@@ -241,22 +251,34 @@
               </div>
             </li>
             <li class="team__item">
-               <picture>
+              <picture>
                 <source
-                  srcset="./images/olga-desktop@1x.jpg 1x, ./images/olga-desktop@2x.jpg 2x"
+                  srcset="
+                    ./images/olga-desktop@1x.jpg 1x,
+                    ./images/olga-desktop@2x.jpg 2x
+                  "
                   media="(min-width: 1200px)"
                 />
 
                 <source
-                  srcset="./images/olga-tablet@1x.jpg 1x, ./images/olga-tablet@2x.jpg 2x"
+                  srcset="
+                    ./images/olga-tablet@1x.jpg 1x,
+                    ./images/olga-tablet@2x.jpg 2x
+                  "
                   media="(min-width: 768px)"
                 />
 
                 <source
-                  srcset="./images/olga-mobile@1x.jpg 1x, ./images/olga-mobile@2x.jpg 2x"
+                  srcset="
+                    ./images/olga-mobile@1x.jpg 1x,
+                    ./images/olga-mobile@2x.jpg 2x
+                  "
                   media="(max-width: 767px)"
                 />
-                <img src="./images/olga-mobile@1x.jpg" alt="Розробник інтерфейсу" />
+                <img
+                  src="./images/olga-mobile@1x.jpg"
+                  alt="Розробник інтерфейсу"
+                />
               </picture>
 
               <div class="team__card">
@@ -298,17 +320,26 @@
             <li class="team__item">
               <picture>
                 <source
-                  srcset="./images/mykola-desktop@1x.jpg 1x, ./images/mykola-desktop@2x.jpg 2x"
+                  srcset="
+                    ./images/mykola-desktop@1x.jpg 1x,
+                    ./images/mykola-desktop@2x.jpg 2x
+                  "
                   media="(min-width: 1200px)"
                 />
 
                 <source
-                  srcset="./images/mykola-tablet@1x.jpg 1x, ./images/mykola-tablet@2x.jpg 2x"
+                  srcset="
+                    ./images/mykola-tablet@1x.jpg 1x,
+                    ./images/mykola-tablet@2x.jpg 2x
+                  "
                   media="(min-width: 768px)"
                 />
 
                 <source
-                  srcset="./images/mykola-mobile@1x.jpg 1x, ./images/mykola-mobile@2x.jpg 2x"
+                  srcset="
+                    ./images/mykola-mobile@1x.jpg 1x,
+                    ./images/mykola-mobile@2x.jpg 2x
+                  "
                   media="(max-width: 767px)"
                 />
                 <img src="./images/mykola-mobile@1x.jpg" alt="маркетолог" />
@@ -353,17 +384,26 @@
             <li class="team__item">
               <picture>
                 <source
-                  srcset="./images/mykhailo-desktop@1x.jpg 1x, ./images/mykhailo-desktop@2x.jpg 2x"
+                  srcset="
+                    ./images/mykhailo-desktop@1x.jpg 1x,
+                    ./images/mykhailo-desktop@2x.jpg 2x
+                  "
                   media="(min-width: 1200px)"
                 />
 
                 <source
-                  srcset="./images/mykhailo-tablet@1x.jpg 1x, ./images/mykhailo-tablet@2x.jpg 2x"
+                  srcset="
+                    ./images/mykhailo-tablet@1x.jpg 1x,
+                    ./images/mykhailo-tablet@2x.jpg 2x
+                  "
                   media="(min-width: 768px)"
                 />
 
                 <source
-                  srcset="./images/mykhailo-mobile@1x.jpg 1x, ./images/mykhailo-mobile@2x.jpg 2x"
+                  srcset="
+                    ./images/mykhailo-mobile@1x.jpg 1x,
+                    ./images/mykhailo-mobile@2x.jpg 2x
+                  "
                   media="(max-width: 767px)"
                 />
                 <img
@@ -413,7 +453,7 @@
       </section>
 
       <!-- Clients -section  -->
-      <!-- <section class="section">
+      <section class="section">
         <div class="container">
           <h2 class="section__title">Постійні клієнти</h2>
           <ul class="clients">
@@ -462,7 +502,7 @@
           </ul>
         </div>
       </section>
-    </main> -->
+    </main>
 
     <!-- <footer class="footer">
       <div class="container footer__container">
