@@ -1055,6 +1055,12 @@ img {
   background: var(--accent-light);
 }
 
+@media screen and (max-width: 1199px) {
+  .section--only-desktop {
+    display: none;
+  }
+}
+
 .socials {
   display: -webkit-box;
   display: -ms-flexbox;
