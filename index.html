@@ -64,9 +64,22 @@
             >
           </li>
         </ul>
-        <!-- <button type="button" class="burger-menu js-open-menu">
+        <button
+          type="button"
+          class="burger-menu js-open-menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          <svg width="40" height="40">
+            <use
+              class="burger-menu__icon"
+              href="./images/icons.svg#icon-menu"
+            ></use>
+          </svg>
+        </button>
+        <!-- <button class="header__burger-btn js-open-menu" type="button" aria-expanded="false" aria-controls="mobile-menu">
             <svg width="40" height="40">
-              <use class="burger-menu__icon" href="./images/icons.svg#icon-menu"></use>
+              <use class="header__burger-icon-open" href=" ./images/icons.svg#icon-burger-open"></use>
             </svg>
           </button> -->
       </div>
@@ -504,9 +517,9 @@
       </section>
     </main>
 
-    <!-- <footer class="footer">
+    <footer class="footer">
       <div class="container footer__container">
-        <div class="footer__box">
+        <div class="footer__box footer__box-contacts">
           <a href="./index.html" class="logo footer__logo"
             >Web<span class="logo__light">Studio</span></a
           >
@@ -590,20 +603,63 @@
           </form>
         </div>
       </div>
-    </footer> -->
+    </footer>
 
     <!-- Mobile-menu  -->
-    <div class="mobile-menu">
-      <div class="container">
-        <button class="mobile-menu__close-button"></button>
-
-        <nav class="mobile-menu__nav">
-          <ul>
-            <li><a href="#"></a></li>
-            <li><a href="#"></a></li>
-            <li><a href="#"></a></li>
-          </ul>
-        </nav>
+    <div class="mobile-menu js-menu-container">
+      <button class="mobile-menu__close-button js-close-menu">
+        <svg width="18.67" height="18.67">
+          <use
+            class="mobile-menu__close-svg"
+            href="./images/icons.svg#icon-close"
+          ></use>
+        </svg>
+      </button>
+      <nav class="mobile-menu__nav">
+        <ul class="mobile-menu__list">
+          <li class="mobile-menu__item">
+            <a href="#" class="mobile-menu__link mobile-menu__link--active"
+              >Студія</a
+            >
+          </li>
+          <li class="mobile-menu__item">
+            <a href="./portfolio.html" class="mobile-menu__link">Портфоліо</a>
+          </li>
+          <li class="mobile-menu__item">
+            <a href="#" class="mobile-menu__link">Контакти</a>
+          </li>
+        </ul>
+      </nav>
+      <div>
+        <ul class="mobile-menu__contact-list">
+          <li class="mobile-menu__contact-item">
+            <a href="tel:+380961111111" class="mobile-menu__contact-tel">
+              +38 096 111 11 11</a
+            >
+          </li>
+          <li class="mobile-menu__contact-item">
+            <a
+              href="mailto:info@devstudio.com"
+              class="mobile-menu__contact-mail"
+            >
+              info@devstudio.com</a
+            >
+          </li>
+        </ul>
+        <ul class="mobile-menu__social-list">
+          <li class="mobile-menu__social-item">
+            <a href="" class="mobile-menu__social-link">Instagram</a>
+          </li>
+          <li class="mobile-menu__social-item">
+            <a href="" class="mobile-menu__social-link">Twitter</a>
+          </li>
+          <li class="mobile-menu__social-item">
+            <a href="" class="mobile-menu__social-link">Facebook</a>
+          </li>
+          <li class="mobile-menu__social-item">
+            <a href="" class="mobile-menu__social-link">LinkedIn</a>
+          </li>
+        </ul>
       </div>
     </div>
 
@@ -688,6 +744,12 @@
       </div>
     </div>
 
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
     <script src="./js/modal.js"></script>
     <script src="./js/mobile-menu.js"></script>
   </body>
