@@ -284,9 +284,6 @@ img {
 }
 @media screen and (min-width: 768px) {
   .footer__box {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
     -ms-flex-pack: distribute;
         justify-content: space-around;
   }
@@ -324,11 +321,8 @@ img {
   }
 }
 
-@media screen and (min-width: 768px) {
+@media (max-width: 1199px) {
   .footer__logo {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
     text-align: center;
   }
 }
